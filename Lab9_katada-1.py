@@ -22,11 +22,15 @@ class main:
             player1.win_coin()
             player2.lose_coin()
             print(f"{player1.get_name()} wins this round!")
+            print(f"...It's a Match! {player1.get_name()} wins a coin.")
 
         else:
             player1.lose_coin()
             player2.win_coin()
             print(f"{player1.get_name()} wins this round!")
+            print(f"...No Match! {player2.get_name()} wins a coin.")
 
-            
+        user_input = input("Do you want to toss the coins? (y/n): ")
+
+
 
