@@ -10,4 +10,4 @@ class Coin:
             self.__sideup = "Heads"
     
     def get_sideup(self):
-        return self._sideup
+        return self.__sideup
