@@ -18,3 +18,15 @@ class main:
         print(f"{player1.get_name} tossed {player1_side}")
         print(f"{player2.get_name()} tossed {player2_side}")
 
+        if player1_side == player2_side:
+            player1.win_coin()
+            player2.lose_coin()
+            print(f"{player1.get_name()} wins this round!")
+
+        else:
+            player1.lose_coin()
+            player2.win_coin()
+            print(f"{player1.get_name()} wins this round!")
+
+            
+
