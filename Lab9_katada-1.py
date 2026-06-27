@@ -30,7 +30,7 @@ def main():
             print(f"{player1.get_name()} wins this round!")
             print(f"...No Match! {player2.get_name()} wins a coin.")
 
-        user_input = input("Do you want to toss the coins? (y/n): ")
+        play_again = input("Do you want to toss the coins? (y/n): ")
     
         print('')
         print("--- Final Score ---")
@@ -43,4 +43,4 @@ def main():
             print(f"{player2.get_name()} wins!")
         else:
             print("It's a draw!")
-
+main()
